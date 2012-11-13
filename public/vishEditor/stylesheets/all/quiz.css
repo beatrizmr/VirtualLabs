@@ -1,0 +1,884 @@
+/* Open Question Quiz*/
+.value_openquestion {	
+	background: none no-repeat scroll 5px 50% transparent;
+    border: 1px solid #9B999D;
+    border-radius: 10px 10px 10px 10px;
+    margin-left:3%;
+    font-family: Helvetica;
+    font-size: 16px;
+    outline: 0 none;
+    padding: 5px 7px;
+    position: relative;
+    text-align:left;
+    z-index: 1000;
+	width: 610px;
+}
+
+.label_question {
+	text-align: justify;
+	padding-top: 3%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 1%;
+	width: 95%;
+	color: black;
+	font-size: 1.3em;
+	display: block;	
+	
+}
+	
+.header_openquestion {
+	background: none repeat scroll 0 0 #F9F9F9;
+    border-radius: 4px 4px 0 0;
+    color: #FF005D;
+    display: block;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0.5em 1.5em;
+    text-decoration: none;
+    text-align:left;
+}
+.value_open_question_in_zone {   
+    background: none no-repeat scroll 5px 50% transparent;
+    border: 1px solid #9B999D;
+    border-radius: 10px 10px 10px 10px;
+    margin-left:3%;
+    font-family: Helvetica;
+    font-size: 16px;
+    outline: 0 none;
+    padding: 5px 7px;
+    position: relative;
+    text-align:left;
+    z-index: 1000;
+    width: 98%;
+    max-height: 40%;
+}
+
+.openQuizContainer {
+
+width: 100%;
+height: 100%;
+
+}
+
+.participant_answer {
+
+    display: none;
+}
+
+
+/* Multiple Choice Question Quiz*/
+
+.multipleChoiceQuizContainer {
+
+width: 100%;
+height: 100%;
+
+}
+
+
+.header_multiplechoice_question {
+	background: none repeat scroll 0 0 #F9F9F9;
+    border-radius: 4px 4px 0 0;
+    color: #FF005D;
+    display: block;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0.5em 1.5em;
+    text-decoration: none;	
+}
+
+.mcquestion_header {
+    padding-left: 0%;
+    margin-top:1.5%;
+    width: 100%;  
+    height: 5%;
+    display: inline-block;  
+    color:#000066;
+    text-align:center;
+    font-size:1.2em;
+    font-weight:bold;
+}
+
+
+
+.value_multiplechoice_question {
+	background: none no-repeat scroll 5px 50% transparent;
+    border: 1px solid #9B999D;
+    border-radius: 10px 10px 10px 10px;
+    font-family: Helvetica;
+    font-size: 1.4em;
+    outline: 0 none;
+    padding: 2% 4%;
+    position: relative;
+    z-index: 1000;
+	max-width: 90%;
+	min-width: 50%;
+    max-height: 40%;
+}
+
+.multiplechoice_text {
+	background: none no-repeat scroll 5px 50% transparent;
+    border: 1px solid #9B999D;
+    border-radius: 10px 10px 10px 10px;
+    font-family: Helvetica;
+    font-size: 16px;
+    outline: 0 none;
+    padding: 5px 7px;
+    position: relative;
+    z-index: 1000;
+    width: 300px;
+}
+
+.li_mch_option {
+	
+	list-style:none;
+}
+
+
+.value_multiplechoice_question_in_zone {
+    background: none no-repeat scroll 5px 50% transparent;
+    border: 1px solid #9B999D;
+    border-radius: 10px 10px 10px 10px;
+    font-family: Helvetica;
+    font-size: 1.2em;
+    outline: 0 none;
+    padding: 2%;
+    position: relative;
+    z-index: 1000;
+    width: 90%;
+    min-width: 50%;
+    max-height: 40%;
+}
+
+
+.ul_mch_options_in_zone {
+    padding: 0%;
+
+}
+.li_mch_options_in_zone {
+    display: inline-block;
+    padding: 0%;
+    width: 100%;
+}
+.li_mch_options_in_zone > span{
+    display: inline-block;
+    padding: 0.1%;
+    width: 4%;
+}
+
+.multiplechoice_text_in_zone {
+    background: none no-repeat scroll 5px 50% transparent;
+    border: 1px solid #9B999D;
+    border-radius: 10px 10px 10px 10px;
+    font-family: Helvetica;
+    font-size: 1em;
+    outline: 0 none;
+    padding: 1%;
+    position: relative;
+    z-index: 1000;
+    width: 92%;
+}
+
+/* True/False Question Quiz*/
+
+.header_truefalse_question {
+	background: none repeat scroll 0 0 #F9F9F9;
+    border-radius: 4px 4px 0 0;
+    color: #FF005D;
+    display: block;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0.5em 1.5em;
+    text-decoration: none;	
+}
+
+.truefalse_quiz_table {
+	width: 650px;
+	border-collapse: collapse;
+	text-align:center;
+}
+
+.truefalse_quiz_table tr:nth-of-type(even) {
+	background-color:#F3F3F3;
+}
+
+.truefalse_quiz_table tr:nth-of-type(odd) {
+	background-color: #DDD;
+}
+
+
+.truefalse_quiz_table td th {
+	border:none;
+}
+
+.truefalse_quiz_table th {
+	background-color: #000;
+	color:#fff;
+	border-left:5%;
+}
+
+.truefalse_quiz_table td {
+	color:#000;
+}
+
+.td_true {
+	width: 10%;
+}
+
+.td_false{
+	width: 10%;
+}
+
+.td_truefalse_question{
+	text-align:left;
+	width: 75%;
+}
+
+.true_false_question {
+	background: none no-repeat scroll 5px 50% transparent;
+    border: 1px solid #9B999D;
+    border-radius: 10px 10px 10px 10px;
+    margin-left:3%;
+    font-family: Helvetica;
+    font-size: 16px;
+    outline: 0 none;
+    padding: 5px 7px;
+    position: relative;
+    z-index: 1000;
+    width: 94%;
+}
+
+.td_add_button{
+	width: 5%;
+}
+
+span.mcChoiceSpan{
+    margin-right: 3px;
+}
+
+/**
+ Templates
+ **/
+
+ .mcquestion_container {
+    position:relative;
+    width:100%;
+    height:90%;
+    
+}
+
+.mcoptions_container {
+    width: 100%;
+    height: 100%;
+}
+
+.mcquestion_body {
+    width:100%;
+    height:80%;
+}
+
+.mcquestion_buttons {
+    width:100%;
+    height:20%;
+    display: block;
+}
+
+
+.mch_statistics_icon_wrapper{
+    display: block;
+    height:50%;
+    width: 100%;
+    text-align: right;
+}
+
+.mch_inputs_wrapper{
+    display: block;
+    height:50%;
+    width: 100%;
+    text-align: right;
+}
+
+.mcquestion_form {
+    text-align:center;  
+    width: 100%;    
+    height: 62%;    
+}
+
+.mcquestion_form_in_fancybox{
+    width: 50%;
+    height: 62%;    
+}
+
+
+
+.mch_statistics_icon {
+    cursor: pointer;
+    height: 100%;
+    margin-right: 6%;
+}
+
+.multiplechoicequestion {
+    padding: 2%;
+    width:100%;
+    height: 95%;
+}
+
+    
+.mcquestion_send_vote_button{
+    display:block;
+    position:relative;
+    color: blue;
+    font-size:1.2em;
+    text-align:center;
+    vertical-align:bottom;
+    margin-top:100%;
+    height:9%;
+    width: 80%;
+    
+    }
+
+.mc_answer{
+    text-align: justify;
+    color: black;
+    font-size: 1.2em;
+    width:100%;
+    display: block;
+    margin: 1%;
+    float:left;
+    position: relative;
+}
+
+.mc_answer input{
+    margin: 1% 2% 0% 1%;
+}
+
+.mc_meter { 
+        width:72%;
+        height:5%;
+        background-color:#CCCCCC;
+        position: relative;
+        display:none;
+        margin-left:2%;
+        margin-right:2%;
+        margin-top:0%;
+        float:left;
+    }
+        
+.mc_meter > span { 
+        width:0%;
+        height:100%;
+        position: relative;
+        display:block; 
+
+    }       
+
+ .mcoption_a { 
+        background-color: red;
+
+    }       
+    
+ .mcoption_b { 
+            background-color: green;
+  }   
+
+.mcoption_c { 
+        background-color: yellow;
+
+ }   
+
+.mcoption_d { 
+        background-color: orange;
+ }   
+        
+.mcoption_e { 
+     background-color: blue;
+ }       
+        
+.mmcoption_f { 
+        background-color:#FF05DD;
+}
+
+.mcoption_label {
+    float:left;
+    position: relative; 
+    width:10%;
+    margin-left:2%;
+    margin-right:2%;
+    margin-top:0%;
+    display:block;
+    text-align: left;
+}
+
+.save_quiz {
+    display:none; /* inline-block; */   
+    font-size:0.8em;    
+}
+
+.save_results_quiz {
+
+    background: none no-repeat scroll 1% 50% transparent;
+    border: 1% solid #9B999D;
+    border-radius: 2%;
+    font-family: Helvetica;
+    font-size: 1em;
+    outline: 0 none;
+    padding: 0%;
+    position: relative;
+    /*z-index: 1000; */
+
+}
+.mcquestion_save_yes_button {
+    position:relative;
+    color: blue;
+    font-size:0.8em;
+    text-align:center;
+    font-weight:bold;
+    vertical-align:bottom;
+    margin-top:0%; /* default 20%. It changes depending on the number of options*/
+    height:9%;
+    -moz-border-radius:2em;
+    -webkit-border-radius: 2em;
+    cursor:pointer;
+    
+    
+}   
+
+.mcquestion_save_no_button {
+    position:relative;
+    color: red;
+    font-size:0.8em;
+    text-align:center;
+    font-weight:bold;
+    vertical-align:bottom;
+    margin-top:0%; /* default 20%. It changes depending on the number of options*/
+    height:9%;
+    -moz-border-radius:2em;
+    -webkit-border-radius: 2em;
+    cursor:pointer; 
+}   
+
+/* cause the viewer is independent of the editor */
+.truefalse_question {
+    padding: 2%;
+    width:100%;
+    height: 90%;
+    
+}
+
+.truefalse_question_container {
+    padding: 2%;
+    width:100%;
+    height: 90%;
+    
+}
+
+.truefalse_quiz_table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align:center;
+}
+
+.truefalse_quiz_table tr:nth-of-type(even) {
+    background-color:#F3F3F3;
+}
+
+.truefalse_quiz_table tr:nth-of-type(odd) {
+    background-color: #DDD;
+}
+
+
+.truefalse_quiz_table td th {
+    border:none;
+}
+
+.truefalse_quiz_table th {
+    background-color: #000;
+    color:#fff;
+    border-left:5%;
+}
+
+.truefalse_quiz_table td {
+    color:#000;
+}
+
+.td_true {
+    width: 10%;
+}
+
+.td_false{
+    width: 10%;
+}
+
+.td_truefalse_question{
+    text-align:left;
+    width: 75%;
+}
+
+.true_false_question_txt {
+    background: none no-repeat scroll 5px 50% transparent;
+    margin-left:1%;
+    text-align:left;
+    font-family: Helvetica;
+    font-size: 1.2em;
+    line-height: 110%;
+    outline: 0 none;
+    padding: 1%;
+    width: 94%;
+}
+
+.tfquestion_button {
+    display:block;
+    position:relative;
+    float:right;
+    color: blue;
+    font-size:1.2em;
+    text-align:center;
+    font-weight:bold;
+    vertical-align:bottom;
+    margin-top:5%; 
+    margin-right:5%;
+    height:9%;
+    width: 20%;
+    -moz-border-radius:2em;
+    -webkit-border-rad.mcquestion_header {
+    padding-left: 0%;
+    margin-top:1.5%;
+    width: 100%;  
+    height: 5%;
+    display: inline-block;  
+    color:#000066;
+    text-align:center;
+    font-size:1.2em;
+    font-weight:bold;
+}ius: 2em;
+    cursor:pointer;
+}
+
+
+
+/*
+    OPEN QUESTION SLIDE
+    by Enrique Barra
+    css for quiz slide containing only question, name and answer
+*/
+
+
+.question {
+    border-radius: 0.4em 0.4em 0em 0em;
+    color: #212121;
+    display: block;
+    padding: 0.1em;
+    text-decoration: none;
+    width:100%; 
+    float: left;
+    line-height: 105%;
+    text-align:left;
+    margin-left: 0%;
+}
+    
+    
+
+.question_name{
+    padding-top: 3%;
+    padding-bottom: 1%;
+    padding-left: 8%;
+    padding-right: 5%;
+    display: block;
+    text-align: left;
+    color: black;
+    font-size: 1.3em;
+    
+}
+
+.question_name_input{
+    background: none no-repeat scroll 5px 50% transparent;
+    border: 0.1em solid #9B999D;
+    border-radius: .5em .5em .5em .5em;
+    font-family: Helvetica;
+    outline: 0 none;
+    padding: .25em .25em;
+     z-index: 1000;
+    
+    font-size: 1.2em;
+    
+    position:relative;
+}
+
+.label_question{
+    padding-top: 3%;
+    padding-bottom: 1%;
+    padding-left: 8%;
+    padding-right: 5%;
+    display: block;
+    text-align: left;
+    color: black;
+    font-size: 1.3em;
+}
+
+
+.question_answer{
+    background: none no-repeat scroll 1% 50% transparent;
+    border: 0.1em solid #9B999D;
+    border-radius: .5em .5em .5em .5em;
+    font-family: Helvetica;
+    outline: 0 none;
+    padding: .25em .25em;
+    z-index: 1000;
+    color: black;
+    font-size: 1.2em;
+    }
+
+.question_button{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: black;
+    font-size: 1.2em; 
+    text-align:center;
+    display:block;
+    float: right;
+    margin-right: 10%;
+    
+    }
+
+.url_share {
+    width: 100%;
+    height: 100%;   
+    text-align:center;
+}
+
+.url_share > span {
+     background-color: #f7f7f7;
+    -moz-border-radius:2em;
+    -webkit-border-radius: 2em;
+    padding: 0.5%;
+    left: 0%;
+    position:relative;
+    top: 0px;
+}
+
+
+.shareQuizButton {
+    padding: 1%;
+    height: 5%;
+    width: 5%;
+    text-align: right;
+    position:relative;
+    cursor:pointer;
+    
+}
+.shareQuizButton > img {
+    height: 70%;
+    width: 7%;
+    text-align: right;
+    position:relative;
+    
+}
+
+
+.shareContentIcons {
+    text-align:center;
+    
+    display:none;
+    width: 10%;
+    z-index: 1;
+    
+    border: solid 0.5%;
+
+    
+}
+
+.shareContentIcons > a {
+    height: 20%;
+    width: 20%;
+}
+
+.shareContentIcons > a > img {
+    width: 50%;
+    height: 50%;
+    
+}
+/*remove when quiz be correctly implemented */
+
+
+.remove_quiz_option > img {
+    margin-left: 5px;
+}
+
+
+.quiz_mch_question_in_template {
+    border-radius: 0.4em 0.4em 0em 0em;
+    color: #212121;
+    display: block;
+    font-family: Helvetica;
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 1%;
+    text-decoration: none;
+    width:96%; 
+    float: left;
+    line-height: 120%;
+    text-align:justify;
+    margin: 1%; 
+}
+.quiz_mch_answer_in_template {
+text-align: justify;
+color: 
+black;
+font-size: 1.2em;
+width: 100%;
+display: block;
+margin: 1%;
+line-height: 110%;
+float: left;
+position: relative;
+}
+
+.quiz_session_header {
+    padding-left: 0%;
+    margin-top:3%;
+    margin-bottom: 2%;
+    width: 90%;  
+    height: 10%;
+    display: inline-block;  
+    color:#000066;
+    text-align:center;
+    font-size:1.7em;
+    font-weight:bold;
+    
+}
+
+#start_quiz_fancybox {
+    width: 100%;
+    height: 100%;
+}
+
+#tab_quiz_session_content {
+
+    text-align: center;
+}
+.resized_fancybox_for_stats {
+width: 100%;
+height: 90%;
+}
+
+.quiz_session_body{
+
+height: 60%;
+}
+.quiz_session_qrcode_container {
+    height: 100%;
+    padding-top:1%;
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+.quiz_sesssion_inputs_container {
+    display: block;
+    height:8%;
+    width: 100%;
+    text-align: right;
+}
+/*TODO change class name to start button and remove anoothers styles above*/
+.quiz_session_start_button, .quiz_session_stop_button, .quiz_session_options_button {
+
+    display: block;
+    font-size:1.2em;
+    text-align:center;
+    font-weight:bold;
+    height: 100%;
+    -moz-border-radius:2em;
+    -webkit-border-radius: 2em;
+    cursor:pointer;
+    float: right;
+    margin-top: 0.5%;
+    margin-right: 4%;
+
+}
+.quiz_session_start_button {
+
+    color: blue;
+}
+.quiz_session_start_button:hover {
+
+    color: blue;
+    background-color: #BDBDBD;
+}
+
+.quiz_session_stop_button {
+
+    color: red;
+}
+
+.quiz_session_stop_button:hover {
+   background-color: #BDBDBD;
+
+}
+
+.quiz_session_options_button {
+    color: #FF0080;
+    display:none;
+}
+.quiz_session_options_button:hover {
+
+    background-color: #BDBDBD;
+    }
+
+
+#tab_quiz_statistics_content {
+
+    text-align: center;
+}
+
+
+.quiz_stats_bars_content {
+    display: block;
+    width: 96%;
+    height:100%;
+    text-align: center;
+    margin-left: 3%;
+
+}
+
+.quiz_stats_pie_content {
+    display: block;
+    width: 96%;
+    height:100%;
+    text-align: center;
+    margin-left: 3%;
+
+}
+
+.quiz_question_container{
+    display: block;
+    min-height: 20%;
+
+}
+
+.quiz_options_container {
+
+    display: block;
+    float:left;
+    width: 90%;
+    height:70%;
+    text-align: left;
+    margin-left: 0%;
+}
+
+.quiz_chart_container {
+    display: block; 
+    width: 50%;
+    height:70%;
+    text-align: center;
+    margin-left: 2%;
+
+}
+
+.quiz_in_satistics { /* for all quiz types */
+
+  text-align: center;  
+  margin: 3%;
+}
